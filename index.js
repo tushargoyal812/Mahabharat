@@ -2,7 +2,7 @@ var readlineSync=require('readline-sync')
 const chalk=require('chalk')
 var score=0;
 var userName=readlineSync.question("May i have your name please: ")
-console.log("NAMASTE! "+userName+" Welcome to the great mahabharat quiz,Lets see your knowledge about mahabharata")
+console.log("NAMASTE! "+userName+" Welcome to the great mahabharat quiz,Lets see your knowledge about mahabharata ")
 console.log("*******************************************************")
 function mahabharat(question,answer)
 {
